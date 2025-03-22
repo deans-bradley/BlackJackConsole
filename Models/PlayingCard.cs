@@ -2,7 +2,7 @@ using System.Text.Json.Serialization;
 
 namespace BlackJackConsole.Models
 {
-    public class PlayingCards
+    public class PlayingCard
     {
         [JsonPropertyName("suit")]
         public string Suit { get; set; } = String.Empty;
